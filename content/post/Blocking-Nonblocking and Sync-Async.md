@@ -3,6 +3,7 @@ date        = "2017-04-21T11:30:27+09:00"
 title       = "Blocking-Nonblocking and Sync-Async"
 tags        = [ "blocking", "nonblocking", "sync", "async", "io" ]
 categories = [ "Concepts"]
+thumbnailImage = "http://www.ibm.com/developerworks/library/l-async/figure1.gif"
 +++
 
 # IBM 에서 그려놓은 2x2 매트릭스
@@ -13,7 +14,7 @@ categories = [ "Concepts"]
 
 >**호출되는 함수가 바로 리턴되는가, 안되는가 차이**
 
-blocking 은 말 그대로, 어떤 작업 (read, wrtie) 을 하는 도중에는 다른 프로세스나 스레드가 작업을 할 수 없는 상태 (작업이 끝날때까지 리턴되지 않음)
+blocking 은 말 그대로, 어떤 작업 (read, write) 을 하는 도중에는 다른 프로세스나 스레드가 작업을 할 수 없는 상태 (작업이 끝날때까지 리턴되지 않음)
 
 NonBlocking 은
 컨텍스트 스위칭 (context-switch) 를 통해서 프로세스나, 스레드가 각자 필요한 read, write 같은 시스템 콜을 번갈아 가며 사용가능 함.
