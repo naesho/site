@@ -32,8 +32,8 @@ canonifyurls = true
 
 [author]
   name = "Sean OH"
-  bio = "Go. Simple"
-  job = "Programmer"
+  bio = "No Write, No Bug"
+  job = "Serverside Programmer"
   location = "South Korea"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "ohsaean@outlook.com"
